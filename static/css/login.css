@@ -1,4 +1,31 @@
 /* Style the form container */
+body {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    margin-top: 200px;
+    /* Adjust the value as needed */
+    /* Removes default body margin */
+}
+
+h1 {
+    color: #FFFFFF;
+    /* white text color */
+    text-align: center;
+    /* centers the text */
+    font-size: 2em;
+    /* adjust size as needed */
+    font-weight: bold;
+    /* makes the text bold */
+    margin: 20px 0;
+    /* adds some vertical spacing */
+}
+
+
+
 form {
     display: flex;
     flex-direction: column;
@@ -33,5 +60,11 @@ button {
     color: #333;
     padding: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
 
+
+}
+
+.center {
+    text-align: center;
 }

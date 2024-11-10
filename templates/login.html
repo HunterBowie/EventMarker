@@ -15,10 +15,12 @@
         {{ form.hidden_tag() }}
         {{ form.username }}
         {{ form.password }}
+        <div class="center">
+            <a href="{{ url_for('register') }}">Don't have an account? Sign Up</a>
+        </div>
         {{ form.submit }}
     </form>
-
-    <a href="{{ url_for('register') }}">Don't have an account? Sign Up</a>
+   
 </body>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
 </html>
